@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--    <style name="Base.Theme.LA" parent="Theme.Material3.DayNight.NoActionBar">-->
+    <style name="Base.Theme.LA" parent="Theme.AppCompat.Light.NoActionBar">
+
+    <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/bold_2</item>
+<!--        <item name="android:windowSplashScreenIconBackgroundColor">@color/white</item>-->
+<!--        <item name="android:windowSplashScreenBrandingImage">@drawable/logo</item>-->
+    </style>
+</resources>

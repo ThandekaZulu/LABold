@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LA</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--******** Sting resources rather than hard coded text ***********-->
+
+    <string name="welcome_text">Ready to start your learning journey? Simply fill in your details, and we’ll get you set up in no time</string>
+    <string name="button_get_start">Get Started!</string>
+</resources>

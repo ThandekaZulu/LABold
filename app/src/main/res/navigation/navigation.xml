@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/fragmentGetStarted">
+
+    <fragment
+        android:id="@+id/fragmentGetStarted"
+        android:name="com.view.FragmentGetStarted"
+        android:label="fragment_get_started"
+        tools:layout="@layout/fragment_get_started" >
+        <action
+            android:id="@+id/action_fragmentGetStarted_to_fragmentUserDetails"
+            app:destination="@id/fragmentUserDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentUserDetails"
+        android:name="com.view.FragmentUserDetails"
+        android:label="fragment_user_details"
+        tools:layout="@layout/fragment_user_details" >
+        <action
+            android:id="@+id/action_fragmentUserDetails_to_fragmentAvatar"
+            app:destination="@id/fragmentAvatar" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentAvatar"
+        android:name="com.view.FragmentAvatar"
+        android:label="fragment_avatar"
+        tools:layout="@layout/fragment_avatar" >
+        <action
+            android:id="@+id/action_fragmentAvatar_to_fragmentCompleteOnboarding"
+            app:destination="@id/fragmentCompleteOnboarding" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentCompleteOnboarding"
+        android:name="com.view.FragmentCompleteOnboarding"
+        android:label="fragment_complete_onboarding"
+        tools:layout="@layout/fragment_complete_onboarding" />
+</navigation>

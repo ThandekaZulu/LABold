@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dark_green">#18573A</color>
+    <color name="dark_orange">#CD9250</color>
+    <color name="light_orange">#FFAD42</color>
+    <color name="light_green">#598672</color>
+    <color name="dark_grey">#A3A3A3</color>
+    <color name="light_grey">#CCCCCC</color>
+    <color name="light_light_grey">#F1F1F1</color>
+    <color name="red">#DA2C2C</color>
+    <color name="pitch">#D88D85</color>
+    <color name="greyish">#707070</color>
+
+</resources>
